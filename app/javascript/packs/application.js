@@ -8,3 +8,17 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+import React from 'react'
+import Routes from '../routes';
+import ReactDOM from 'react-dom'
+import PropTypes from 'prop-types'
+
+document.addEventListener('DOMContentLoaded', () => {
+  let reactElement = document.getElementById('app')
+  if (reactElement) {
+    ReactDOM.render(
+      <Routes />,
+      reactElement
+    )
+  }
+})
