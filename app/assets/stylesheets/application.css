@@ -18,3 +18,11 @@
  div.mapboxgl-popup-content {
    padding: 1px
  }
+
+button.geocoder-icon.geocoder-icon-close {
+  visibility: hidden
+}
+
+input {
+width: 360px;
+}
