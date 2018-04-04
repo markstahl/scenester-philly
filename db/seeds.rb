@@ -76,3 +76,23 @@ m7 = Movie.create(
   description:"Pat Solatano Jr. (Bradley Cooper) is released from a Maryland Hospital after eight months of counseling following the assault of his ex-wife's lover. Ordered to move back in with his parents in Philadelphia, and also being diagnosed with bi-polar disorder, he is determined to start fresh and gain his job and life back. Silver Linings Playbook was filmed all throughout Philadelphia and it's suburbs, but a crucial scene was filmed at the Eagles home base, Lincoln Financial Field.",
   imdb_link: "http://www.imdb.com/title/tt1045658/"
 )
+
+m8 = Movie.create(
+  title:"National Treasure",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BMTY3NTc4OTYxMF5BMl5BanBnXkFtZTcwMjk5NzUyMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+  year:"2004",
+  coordinates:[-75.15002489089964, 39.94891241569204],
+  location_name:"Independence Hall",
+  description:"Benjamin Franklin Gates (Nicholas Cage) descends from a family of treasure-seekers who've all hunted for the same thing: a war chest hidden by the Founding Fathers after the Revolutionary War. Ben's close to discovering its whereabouts, as is his competition, but the FBI is also hip to the hunt. Since the film revolves around The Declaration of Independence, many scenes were filmed around Philadelphia at historical landmarks, like a pivotal scene at Independence Hall.",
+  imdb_link: "http://www.imdb.com/title/tt0368891/"
+)
+
+m9 = Movie.create(
+  title:"Invincible",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BMjA1NjI2ODA5MF5BMl5BanBnXkFtZTcwNjMyMTMzMQ@@._V1_SY1000_CR0,0,677,1000_AL_.jpg",
+  year:"2006",
+  coordinates:[-75.18990397453308, 39.950008376315864],
+  location_name:"Franklin Field",
+  description:"Based on a true story, this film centers around Vince Papale (Mark Wahlberg) who has hit dead end after dead end. He loses his job, his wife leaves him, and the only thing he has left is his love of football. After new Eagles coach Dick Vermeil holds open tryouts, Papale tries to defeat the odds and make the team, despite having the odds stacked against him. Franklin Field, the home field of UPenn football, served as a major scene, depicting the open Eagles tryouts.",
+  imdb_link: "http://www.imdb.com/title/tt0445990/?ref_=nv_sr_1"
+)
