@@ -5,15 +5,14 @@ class MovieShowContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      movies:{}
+      movie: {}
     }
 
   }
 
   componentDidMount() {
     let id = this.props.params.id
-    fetch(`/api/v1/movies/${id}`)
-    .then(response => {
+    fetch(`/api/v1/movies/${id}`).then(response => {
       if (response.ok) {
         return response;
       } else {
@@ -24,9 +23,7 @@ class MovieShowContainer extends Component {
     })
     .then(response => response.json())
     .then(body => {
-      this.setState({
-        movie: body.movie
-      });
+      this.setState({movie: body});
     })
     .catch(error => console.error(`Error in fetch: ${error.message}`));
   }
@@ -35,8 +32,10 @@ class MovieShowContainer extends Component {
     let movie_id = this.state.movie.id
     let movie_title = this.state.movie.title
     let movie_year = this.state.movie.year
-    let movie_image_url = this.state.movie.image_url
-    let movie_coordinates = this.state.movie.coordinates
+    let movie_image = this.state.movie.image_url
+    let movie_location = this.state.movie.location_name
+    let movie_description = this.state.movie.description
+    let movie_link = this.state.movie.imdb_link
 
     return(
       <div>
@@ -45,8 +44,10 @@ class MovieShowContainer extends Component {
           id={movie_id}
           title={movie_title}
           year={movie_year}
-          image={movie_image_url}
-          coordinates={movie_coordinates}
+          image_url={movie_image}
+          location_name={movie_location}
+          description={movie_description}
+          imdb_link={movie_link}
         />
       </div>
     )

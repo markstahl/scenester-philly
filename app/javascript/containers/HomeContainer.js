@@ -37,11 +37,6 @@ class HomeContainer extends Component {
         movies={this.state.movies}
       />
     </div>
-  <div>
-      <MovieContainer
-        movies={this.state.movies}
-      />
-    </div>
   </div>
     )
   }

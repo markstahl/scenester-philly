@@ -4,14 +4,13 @@ import { browserHistory, Link } from 'react-router';
 const MovieShow = (props) => {
 
   return(
-    <div className="jumbotron jumbotron-fluid">
-      <div className="container">
-        <h1 className="display-4 trip-name">{props.title}</h1>
-        <p>{props.image_url}</p>
-        <p className="lead trip-description">{props.year}</p>
+    <div>
+        <h1>{props.title}</h1>
+        <img src={props.image_url} width='300px' height= '300px' />
+        <p>{props.year}</p>
         <p>{props.location_name}</p>
-        <p>{props.coordinates}</p>
-      </div>
+        <p>{props.description}</p>
+        <a href={props.imdb_link}>IMdb</a>
     </div>
   )
 }

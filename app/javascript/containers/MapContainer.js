@@ -16,45 +16,6 @@ class MapContainer extends React.Component {
       newMovieCoordinates: [],
       center: [-75.16416549682616,
         39.95054298488249],
-        // movies: [
-        //   {
-        //     image_url: 'https://www.goldenglobes.com/sites/default/files/articles/cover_images/1977-rocky.jpg',
-        //     coordinates: [-75.1812806725502,
-        //       39.96576523820587],
-        //       visible: true
-        //     },
-        //     {
-        //       image_url: 'http://www.rosariocine.com.ar/info/2465d.jpg',
-        //       coordinates: [-75.17079055309296,
-        //         39.950078286904365],
-        //         visible: true
-        //       },
-        //       {
-        //         image_url: 'https://images-na.ssl-images-amazon.com/images/I/91BI%2BAGPCmL._SL1500_.jpg',
-        //         coordinates: [-75.14786303043365,
-        //           39.944016362164],
-        //           visible: true
-        //         },
-        //         {
-        //           image_url: 'http://www.impawards.com/1993/posters/philadelphia_xlg.jpg',
-        //           coordinates: [-75.19277393817902,
-        //             39.951591628011556],
-        //             visible: true
-        //           },
-        //           {
-        //             image_url: 'https://ia.media-imdb.com/images/M/MV5BYTEzMjBiMzktMjQyMS00YzBhLTgzNWQtNzA0NmEwMTNmMDQ2XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX675_AL_.jpg',
-        //             coordinates: [-75.16392678022385,
-        //               39.949739014262825],
-        //               visible: true
-        //             },
-        //             {
-        //               image_url: 'https://jmichaelrios.files.wordpress.com/2013/05/thewrestler.jpg',
-        //               coordinates: [-75.14726758003235,
-        //                 39.918403532944865],
-        //                 visible: true
-        //               }
-        //
-        //             ]
                   }
                   this.handleMarkerClick = this.handleMarkerClick.bind(this);
                   this.onClickMap = this.onClickMap.bind(this);
@@ -90,18 +51,18 @@ class MapContainer extends React.Component {
                       />
                     )
                   })
-                  let newMoviePopup = this.state.newMovieCoordinates.map(coordinates => {
-                    return(
-                      <Popup
-                        coordinates={this.state.newMovieCoordinates}
-                        anchor="bottom">
-                        <div><Link to={{
-                          pathname: '/movies/new',
-                          state: { detail: this.state.newMovieCoordinates }
-                        }}> Add New Movie </Link></div>
-                      </Popup>
-                    )
-                  })
+                  // let newMoviePopup = this.state.newMovieCoordinates.map(coordinates => {
+                  //   return(
+                  //     <Popup
+                  //       coordinates={this.state.newMovieCoordinates}
+                  //       anchor="bottom">
+                  //       <div><Link to={{
+                  //         pathname: '/movies/new',
+                  //         state: { detail: this.state.newMovieCoordinates }
+                  //       }}> Add New Movie </Link></div>
+                  //     </Popup>
+                  //   )
+                  // })
 
                   let moviePopups = this.props.movies.map(movie => {
                     // if (movie == this.state.selectedMovie){
@@ -109,10 +70,9 @@ class MapContainer extends React.Component {
                         <Popup
                           key={movie.id}
                           coordinates={movie.coordinates}
-                          anchor="top">
+                          anchor="bottom">
                           <Link to={`movies/${movie.id}`}>
-
-                          <img src={movie.image_url} width='180px' height= '180px'></img>
+                         <img src={movie.image_url} width='100px' height= '130px'></img>
                         </Link>
                         </Popup>
                       )
@@ -131,7 +91,7 @@ class MapContainer extends React.Component {
                           width: "1920px"
                         }}>
                         {moviePopups}
-                        {newMoviePopup}
+                        {/* {newMoviePopup} */}
                         <Layer
                           type="symbol"
                           id="marker"

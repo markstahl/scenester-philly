@@ -11,7 +11,7 @@ const Routes = props => {
       <Router history={browserHistory}>
         <Route path='/'>
           <IndexRoute component={HomeContainer}/>
-          <Route path="/movies/:id" component={MovieShowContainer} />
+          <Route path='movies/:id' component={MovieShowContainer} />
         </Route>
       </Router>
     </div>

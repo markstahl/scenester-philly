@@ -7,9 +7,72 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Movie.delete_all
 
-m1 = Movie.create( title:"Rocky", image_url:"https://www.goldenglobes.com/sites/default/files/articles/cover_images/1977-rocky.jpg",year:"1976", coordinates:[-75.1812806725502, 39.96576523820587], location_name:"Philadelphia Art Museum")
-m2 = Movie.create( title:"The Happening", image_url:"http://www.rosariocine.com.ar/info/2465d.jpg", year:"2008", coordinates:[-75.17079055309296, 39.950078286904365], location_name:"Rittenhouse Square")
-m3 = Movie.create( title:"The Italian Job", image_url:"https://images-na.ssl-images-amazon.com/images/I/91BI%2BAGPCmL._SL1500_.jpg", year:"2003", coordinates:[-75.14786303043365, 39.944016362164], location_name:"Delancey Street")
-m4 = Movie.create( title:"Philadelphia", image_url:"http://www.impawards.com/1993/posters/philadelphia_xlg.jpg", year:"1993", coordinates:[-75.14786303043365, 39.944016362164], location_name:"University of Pennsylvania library")
-m5 = Movie.create( title:"Trading Places", image_url:"https://ia.media-imdb.com/images/M/MV5BYTEzMjBiMzktMjQyMS00YzBhLTgzNWQtNzA0NmEwMTNmMDQ2XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX675_AL_.jpg", year:"1983", coordinates:[-75.16392678022385, 39.949739014262825], location_name:"Wells Fargo Building")
-m6 = Movie.create( title:"The Wrestler", image_url:"https://jmichaelrios.files.wordpress.com/2013/05/thewrestler.jpg", year:"2008", coordinates:[-75.14726758003235, 39.918403532944865], location_name:"2300 Arena")
+m1 = Movie.create(
+  title: "Rocky",
+  image_url: "https://www.goldenglobes.com/sites/default/files/articles/cover_images/1977-rocky.jpg",
+  year: "1976",
+  coordinates: [-75.1812806725502, 39.96576523820587],
+  location_name: "Philadelphia Art Museum, Philadelphia, PA",
+  description: "Rocky, the Oscar Winning film of 1976, was filmed on location at The Philadelphia Art Museum. The name has become so synonomous with it that a statue was erected in honor of the film and the entry stairway has been renamed 'The Rocky Stairs'.",
+  imdb_link: "http://www.imdb.com/title/tt0075148/?ref_=nv_sr_1"
+)
+
+m2 = Movie.create(
+  title:"The Happening",
+  image_url:"http://www.rosariocine.com.ar/info/2465d.jpg",
+  year:"2008",
+  coordinates:[-75.17079055309296, 39.950078286904365],
+  location_name:"Rittenhouse Square, Philadelphia, PA",
+  description:"A psycological thriller centered around the uncontrolled urge to commit suicide. M. Night Shamaylan's first R rated feature film. Like Shamaylan's other films, the plot is largely based in the Philadelphia area.",
+  imdb_link:"http://www.imdb.com/title/tt0949731/"
+)
+
+m3 = Movie.create(
+  title:"The Italian Job",
+  image_url:"https://images-na.ssl-images-amazon.com/images/I/91BI%2BAGPCmL._SL1500_.jpg",
+  year:"2003",
+  coordinates:[-75.17212629318237, 39.947129642982006],
+  location_name:"Delancey Street, Philadelphia, PA",
+  description:"A classic high speed heist. The film revolves around a team led by Donald Sutherland and Mark Wahlberg in an attempt to steal $35 million worth of gold bars from Venice, Italy. Although the film was shot on many locations worldwide, one chase was filmed in Philadelphia on Delancey Street, a small side street between Pine and Spruce.",
+  imdb_link:"http://www.imdb.com/title/tt0317740/?ref_=ttloc_loc_tt"
+)
+
+m4 = Movie.create(
+  title:"Philadelphia",
+  image_url:"http://www.impawards.com/1993/posters/philadelphia_xlg.jpg",
+  year:"1993",
+  coordinates:[-75.14786303043365, 39.944016362164],
+  location_name:"University of Pennsylvania library, Philadelphia, PA",
+  description:"The heartwrenching story of Andrew Beckett (Tom Hanks), a gay, HIV positive lawyer who is fired from his firm during the HIV scare. After hiring a homophobic lawyer Joe Miller(Denzel Washington) to defend him in court, Miller begins to see that Beckett is like everyone else. Although Miller helps and eventually wins the case for Beckett, he succumbs to his disease. Like the name of the film, Philadelphia was filmed entirely in the city of brotherly love. One key scene takes place within the library of the University of Pennsylvania.",
+  imdb_link:"http://www.imdb.com/title/tt0107818/?ref_=nv_sr_2"
+)
+
+m5 = Movie.create(
+  title:"Trading Places",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BYTEzMjBiMzktMjQyMS00YzBhLTgzNWQtNzA0NmEwMTNmMDQ2XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX675_AL_.jpg",
+  year:"1983",
+  coordinates:[-75.16392678022385, 39.949739014262825],
+  location_name:"Wells Fargo Building, Philadelphia, PA",
+  description:"Louis Winthorpe III (Dan Aykroyd) is a lawyer who discusses whether environment or heridity determines their place in life. After bumping into Billy Ray Valentine (Eddie Murphy) and assuming he is being robbed, Winthorpe attempts to have him arrested. The law firm owners make a bet to see what will happen if the two switch places. Let hilarity ensue. The filming locations were split between Philadelphia and New York, with the exterior shots and interior shots filmed in each location, respectively. The Wells Fargo building was the site of the Duke and Duke law firm.",
+  imdb_link:"http://www.imdb.com/title/tt0086465/?ref_=nv_sr_1"
+)
+
+m6 = Movie.create(
+  title:"The Wrestler",
+  image_url:"https://jmichaelrios.files.wordpress.com/2013/05/thewrestler.jpg",
+  year:"2008",
+  coordinates:[-75.14726758003235, 39.918403532944865],
+  location_name:"2300 Arena, Philadelphia, PA",
+  description:"The story of aging wrestler Randy 'The Ram' Robinson (Mickey Rourke) and his inability to come to terms with life outside of the wrestling ring. As he tries to adjust to real life, like reconciling with his abandoned daughter, he struggles to come to terms with reality. But, a rematch against his 80's wrestling rival 'The Ayotollah' (Ernest Miller) may be just the ticket to return to stardom. The only scenes shot in Philadelphia are the arena scenes at 2300 Arena in South Philadelphia. All other scenes were filmed on location in New Jersey, north, central and south.",
+  imdb_link: "http://www.imdb.com/title/tt1125849/?ref_=nv_sr_1"
+)
+
+m7 = Movie.create(
+  title:"Silver Linings Playbook",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+  year:"2012",
+  coordinates:[-75.16583919525146, 39.901785960738344],
+  location_name:"Lincoln Financial Field, Philadelphia, PA",
+  description:"Pat Solatano Jr. (Bradley Cooper) is released from a Maryland Hospital after eight months of counseling following the assault of his ex-wife's lover. Ordered to move back in with his parents in Philadelphia, and also being diagnosed with bi-polar disorder, he is determined to start fresh and gain his job and life back. Silver Linings Playbook was filmed all throughout Philadelphia and it's suburbs, but a crucial scene was filmed at the Eagles home base, Lincoln Financial Field.",
+  imdb_link: "http://www.imdb.com/title/tt1045658/"
+)

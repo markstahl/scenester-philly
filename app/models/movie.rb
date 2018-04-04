@@ -4,4 +4,5 @@ class Movie < ApplicationRecord
   validates :title, presence: true
   validates :year, presence: true
   validates :coordinates, presence: true
+  validates :description, presence: true
 end
