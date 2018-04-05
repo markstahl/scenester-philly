@@ -14,6 +14,8 @@ class Geocoder extends Component {
   componentDidMount() {
     const { map } = this.context;
 
+    map.setZoom(11)
+
     map.addControl(
       new MapboxGeocoder({
         accessToken: "pk.eyJ1IjoiZXJlc2hraWdlbCIsImEiOiJjamZiM245enYwdWl2MzJvZjcxNWR3ZTZ1In0.QHadc3OiBipEZ27M3ftmGA"

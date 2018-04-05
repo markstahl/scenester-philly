@@ -13,8 +13,8 @@ class MapContainer extends React.Component {
     super(props);
     this.state = {
       selectedMovie: null,
-      center: [-75.16416549682616,
-        39.95054298488249],
+      center: [-75.16918659210205,
+          39.95012969170325],
       }
       this.handleMarkerClick = this.handleMarkerClick.bind(this);
       this.onClickMap = this.onClickMap.bind(this);
@@ -32,7 +32,8 @@ class MapContainer extends React.Component {
     onClickMap(map, evt) {
       let lng = evt.lngLat.lng
       let lat = evt.lngLat.lat
-      this.setState({newMovieCoordinates: [lng, lat]})
+
+      // this.setState({newMovieCoordinates: [lng, lat]})
     }
 
     render() {
@@ -52,34 +53,35 @@ class MapContainer extends React.Component {
       })
 
       let moviePopups = this.props.movies.map(movie => {
+        if (movie == this.state.selectedMovie){
         return(
           <Popup
             key={movie.id}
             coordinates={movie.coordinates}
             anchor="bottom">
             <Link to={`movies/${movie.id}`}>
-            <img src={movie.image_url} width='100px' height= '130px'></img>
+            <img src={movie.image_url} width='150px' height= '200px'></img>
           </Link>
         </Popup>
-      )
+        )
+      }
     })
 
     return(
       <div>
         <Map
           center={this.state.center}
-          onClick={this.onClickMap}
           zoom={[15]}
           style="mapbox://styles/mapbox/streets-v9"
           containerStyle={{
-            height: "893px",
+            height: "915px",
             width: "1920px"
           }}>
           {moviePopups}
           <Layer
             type="symbol"
             id="marker"
-            layout={{ "icon-image": "cinema-15", "icon-size": 2.5 }}>
+            layout={{ "icon-image": "cinema-15", "icon-size": 2.5}}>
             {markers}
           </Layer>
           <Geocoder/>
