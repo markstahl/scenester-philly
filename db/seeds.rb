@@ -63,7 +63,7 @@ m6 = Movie.create(
   year:"2008",
   coordinates:[-75.14726758003235, 39.918403532944865],
   location_name:"2300 Arena, Philadelphia, PA",
-  description:"The story of aging wrestler Randy 'The Ram' Robinson (Mickey Rourke) and his inability to come to terms with life outside of the wrestling ring. As he tries to adjust to real life, like reconciling with his abandoned daughter, he struggles to come to terms with reality. But, a rematch against his 80's wrestling rival 'The Ayotollah' (Ernest Miller) may be just the ticket to return to stardom. The only scenes shot in Philadelphia are the arena scenes at 2300 Arena in South Philadelphia. All other scenes were filmed on location in New Jersey, north, central and south.",
+  description:"The story of aging wrestler Randy 'The Ram' Robinson (Mickey Rourke) and his inability to come to terms with life outside of the wrestling ring. As he tries to adjust to real life, like reconciling with his abandoned daughter, he struggles to come to terms with reality. But, a rematch against his 80's wrestling rival 'The Ayotollah' (Ernest Miller) may be just the ticket to return to stardom. The only scenes shot in Philadelphia are the arena scenes at 2300 Arena in South Philadelphia. All other scenes were filmed on location in north, central and southern New Jersey.",
   imdb_link: "http://www.imdb.com/title/tt1125849/?ref_=nv_sr_1"
 )
 
@@ -95,4 +95,34 @@ m9 = Movie.create(
   location_name:"Franklin Field",
   description:"Based on a true story, this film centers around Vince Papale (Mark Wahlberg) who has hit dead end after dead end. He loses his job, his wife leaves him, and the only thing he has left is his love of football. After new Eagles coach Dick Vermeil holds open tryouts, Papale tries to defeat the odds and make the team, despite having the odds stacked against him. Franklin Field, the home field of UPenn football, served as a major scene, depicting the open Eagles tryouts.",
   imdb_link: "http://www.imdb.com/title/tt0445990/?ref_=nv_sr_1"
+)
+
+m10 = Movie.create(
+  title:"Dead Man Down",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BMTM2NTU5NTIzMF5BMl5BanBnXkFtZTcwNjQ3MTM5OA@@._V1_SY1000_SX675_AL_.jpg",
+  year:"2013",
+  coordinates:[-75.16830146312714, 39.94992612847324],
+  location_name:"16th, 17th and Walnut streets",
+  description:"Victor (Colin Ferrell) is on a warpath to avenge his family after their deaths at the hands of ruthless crime boss Alphonse (Terrence Howard). In his travels, he meets Beatrice (Noomi Rapace), who has a plan for revenge of her own. After Beatrice is kidnapped by Alphonse, it's a race against time for Victor to save his new comrade. Mostly shot in New York, some outdoor scenes were filmed in Philadelphia, including Center City and the SS United States, a decaying cruise ship from days long forgotten.",
+  imdb_link:"http://www.imdb.com/title/tt2101341/?ref_=nv_sr_4"
+)
+
+m11 = Movie.create(
+  title:"The Lovely Bones",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BMjAwNDA1MTM2MF5BMl5BanBnXkFtZTcwMzg3NDcwMw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+  year:"2009",
+  coordinates:[-75.49497842788695, 40.03421933185762],
+  location_name:"Bryan and Queens Avenues, Paoli, Pennsylvania",
+  description:"Susie Salmon (Saoirse Ronan) is murdered by her neighbor. Her story is told, from purgatory, and communicates with her family to help them find her killer and her lost remains while still protecting the ones she loves. To get the feel of a real suburban environment, the film was shot in many Philadelphia suburbs. Locations include Paoli, Norristown, and Malvern just to name a few.",
+  imdb_link:"http://www.imdb.com/title/tt0380510/?ref_=nv_sr_1"
+)
+
+m12 = Movie.create(
+  title:"Limitless",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BYmViZGM0MGItZTdiYi00ZDU4LWIxNDYtNTc1NWQ5Njc2N2YwXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,692,1000_AL_.jpg",
+  year:"2011",
+  coordinates:[-75.16544759273529, 39.95090075905096],
+  location_name:"15th and Chestnut; Del Frisco's Steakhouse",
+  description:"Eddie Morra (Bradley Cooper) has lost purpose in life. It's not until he is introduced to a new wonder drug, a new pharmaceutical that allows the person to use 100% of their brain capacity. With this godlike ability now entwined in his DNA, Eddie preforms even the toughest acts with extreme ease. But, with new powers comes new consequences. Battling hitmen, severe side effects, and a dwindling supply, Eddie must use his new found ability to survive. Bradley Cooper, a Philadelphia Area native, was at home filming in the area. Del Frisco's, a world renowned steak house, served as the background of one of Cooper's first experiences with the drug.",
+  imdb_link:"http://www.imdb.com/title/tt1219289/?ref_=nv_sr_2"
 )

@@ -13,7 +13,6 @@ class MapContainer extends React.Component {
     super(props);
     this.state = {
       selectedMovie: null,
-      newMovieCoordinates: [],
       center: [-75.16416549682616,
         39.95054298488249],
       }
@@ -51,21 +50,8 @@ class MapContainer extends React.Component {
           />
         )
       })
-      // let newMoviePopup = this.state.newMovieCoordinates.map(coordinates => {
-      //   return(
-      //     <Popup
-      //       coordinates={this.state.newMovieCoordinates}
-      //       anchor="bottom">
-      //       <div><Link to={{
-      //         pathname: '/movies/new',
-      //         state: { detail: this.state.newMovieCoordinates }
-      //       }}> Add New Movie </Link></div>
-      //     </Popup>
-      //   )
-      // })
 
       let moviePopups = this.props.movies.map(movie => {
-        // if (movie == this.state.selectedMovie){
         return(
           <Popup
             key={movie.id}
@@ -76,7 +62,6 @@ class MapContainer extends React.Component {
           </Link>
         </Popup>
       )
-      // }
     })
 
     return(

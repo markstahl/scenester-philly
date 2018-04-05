@@ -17,8 +17,18 @@ class Geocoder extends Component {
     map.addControl(
       new MapboxGeocoder({
         accessToken: "pk.eyJ1IjoiZXJlc2hraWdlbCIsImEiOiJjamZiM245enYwdWl2MzJvZjcxNWR3ZTZ1In0.QHadc3OiBipEZ27M3ftmGA"
-      })
+
+      }),
+      "top-left"
     );
+
+    map.addControl(
+      new mapboxgl.GeolocateControl({
+        positionOptions: {
+        enableHighAccuracy: true
+      },
+      trackUserLocation: true
+    }));
   }
 
   render() {

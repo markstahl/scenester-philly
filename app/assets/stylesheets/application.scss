@@ -15,7 +15,7 @@
  }
 
  .nav-link {
-   margin-left: 30px;
+   margin-left: 1500px;
  }
 
 .scenester {
@@ -126,4 +126,8 @@
   .button-back:hover {
     background-color: gray;
     color: white;
+  }
+
+  .mapboxgl-ctrl-top-right {
+    text-align: left;
   }
