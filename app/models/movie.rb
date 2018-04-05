@@ -1,7 +1,8 @@
 class Movie < ApplicationRecord
-  has_many :locations
 
-  validates :image_url presence: true
-  validates :title presence: true
-  validates :year presence: true
+  validates :image_url, presence: true
+  validates :title, presence: true
+  validates :year, presence: true
+  validates :coordinates, presence: true
+  validates :description, presence: true
 end
