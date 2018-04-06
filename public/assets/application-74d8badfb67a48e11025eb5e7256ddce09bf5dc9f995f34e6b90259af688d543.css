@@ -9978,7 +9978,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 /* line 8, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 div.mapboxgl-popup-content {
-  padding: 1px;
+  padding: 2px;
 }
 
 /* line 12, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
@@ -9990,9 +9990,10 @@ div.mapboxgl-ctrl-top-right {
 /* line 17, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .nav-link {
   margin-left: 1600px;
+  font-family: "Lora", sans-serif;
 }
 
-/* line 21, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 22, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .scenester {
   background-image: -webkit-linear-gradient(#378DBC 0%, #B6E8F1 46%, #ffffff 50%, #32120E 54%, #FFC488 58%, #582C11 90%, #EC9B4E 100%);
   -webkit-background-clip: text;
@@ -10006,7 +10007,7 @@ div.mapboxgl-ctrl-top-right {
   line-height: 1;
 }
 
-/* line 34, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 35, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .philly {
   margin-left: -160px;
   margin-top: 7px;
@@ -10023,12 +10024,12 @@ div.mapboxgl-ctrl-top-right {
   z-index: 20;
 }
 
-/* line 48, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 49, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .windows .philly {
   -webkit-text-stroke: 4px #f008b7;
 }
 
-/* line 52, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 53, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .navbar {
   background: #828c95;
   border-bottom-style: solid;
@@ -10037,7 +10038,7 @@ div.mapboxgl-ctrl-top-right {
   height: 87px;
 }
 
-/* line 60, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 61, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .container {
   text-align: right;
   font-family: "Lora", sans-serif;
@@ -10047,23 +10048,25 @@ div.mapboxgl-ctrl-top-right {
   border-radius: 5px;
 }
 
-/* line 69, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 70, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .movie-name {
   color: white;
   display: inline-block;
   font-family: "Lora", sans-serif;
-  background: rgba(10, 10, 10, 0.3);
+  background: rgba(80, 80, 80, 0.4);
   padding: 0.5rem;
+  border-radius: 5px;
 }
 
-/* line 77, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 79, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .movie-image {
   text-align: center;
 }
 
-/* line 81, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 83, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .movie-year {
   margin-top: 1%;
+  margin-bottom: 13px;
   color: white;
   display: inline-block;
   background: rgba(80, 80, 80, 0.4);
@@ -10071,8 +10074,9 @@ div.mapboxgl-ctrl-top-right {
   border-radius: 5px;
 }
 
-/* line 90, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 93, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .location-name {
+  margin-top: -20px;
   color: white;
   display: inline-block;
   background: rgba(80, 80, 80, 0.4);
@@ -10080,26 +10084,25 @@ div.mapboxgl-ctrl-top-right {
   border-radius: 5px;
 }
 
-/* line 98, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 102, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .movie-description {
-  margin-top: 2%;
+  margin-top: 1px;
   color: white;
   background: rgba(80, 80, 80, 0.4);
   padding: 0.5rem;
   border-radius: 5px;
 }
 
-/* line 106, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 110, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 body {
-  background: #28343b;
-  /* Old browsers */
-  background: linear-gradient(135deg, #28343b 20%, #28343b 20%, #828c95 66%, #b5bdc8 98%, #b5bdc8 98%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28343b', endColorstr='#b5bdc8',GradientType=1 );
+  background: #2E3338;
   background-size: cover;
-  background-attachment: fixed;
+  border-bottom-style: solid;
+  border-color: #FFFFFF;
+  border-width: 3px;
 }
 
-/* line 116, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 118, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .back a {
   margin-right: 1000px;
   display: inline-block;
@@ -10112,7 +10115,7 @@ body {
   border-color: #E4E3E4;
 }
 
-/* line 127, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 129, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .card-footer a {
   display: inline-block;
   background-color: white;
@@ -10124,13 +10127,13 @@ body {
   border-color: #E4E3E4;
 }
 
-/* line 137, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 139, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .button-back:hover {
   background-color: gray;
   color: white;
 }
 
-/* line 142, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
+/* line 144, /Users/markstahl/challenges/scenester-philly/app/assets/stylesheets/application.scss */
 .mapboxgl-ctrl-top-right {
   text-align: left;
 }
