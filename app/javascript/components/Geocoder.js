@@ -27,10 +27,13 @@ class Geocoder extends Component {
     map.addControl(
       new mapboxgl.GeolocateControl({
         positionOptions: {
-        enableHighAccuracy: true
+        enableHighAccuracy: true,
+        timeout: 1500,
       },
-      trackUserLocation: true
+      trackUserLocation: true,
     }));
+
+
   }
 
   render() {

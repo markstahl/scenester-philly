@@ -126,3 +126,13 @@ m12 = Movie.create(
   description:"Eddie Morra (Bradley Cooper) has lost purpose in life. It's not until he is introduced to a new wonder drug, a new pharmaceutical that allows the person to use 100% of their brain capacity. With this godlike ability now entwined in his DNA, Eddie preforms even the toughest acts with extreme ease. But, with new powers comes new consequences. Battling hitmen, severe side effects, and a dwindling supply, Eddie must use his new found ability to survive. Bradley Cooper, a Philadelphia Area native, was at home filming in the area. Del Frisco's, a world renowned steak house, served as the background of one of Cooper's first experiences with the drug.",
   imdb_link:"http://www.imdb.com/title/tt1219289/?ref_=nv_sr_2"
 )
+
+m13 = Movie.create(
+  title:"Mannequin",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BMTM0ODkyMTIzM15BMl5BanBnXkFtZTcwOTYzNzA2NA@@._V1_.jpg",
+  year:"1987",
+  coordinates:[-75.17332792282104, 39.94905635148477],
+  location_name:"The Dorcester",
+  description:"A mannequin comes to life and falls in love with a young artist. There love is complicated, for obvious reasons, but shines through in this heart warming romantic comedy. As rediculous as the plot sounds, the director didn't initially want to release it fearing backlash at the absurdity of the story. It ended up faring well in box office numbers. All principle filming was done in Philadelphia, some locations include The Dorcester apartments and Rittenhouse Square",
+  imdb_link:"http://www.imdb.com/title/tt0093493/?ref_=fn_al_tt_1"
+)

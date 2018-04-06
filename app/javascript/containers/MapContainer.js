@@ -72,16 +72,17 @@ class MapContainer extends React.Component {
         <Map
           center={this.state.center}
           zoom={[15]}
-          style="mapbox://styles/mapbox/streets-v9"
+          style="mapbox://styles/mapbox/basic-v9"
+          name="Bright"
           containerStyle={{
-            height: "915px",
+            height: "918px",
             width: "1920px"
           }}>
           {moviePopups}
           <Layer
             type="symbol"
             id="marker"
-            layout={{ "icon-image": "cinema-15", "icon-size": 2.5}}>
+            layout={{ "icon-image": "cinema-15", "icon-size": 2.4}}>
             {markers}
           </Layer>
           <Geocoder/>
