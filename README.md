@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 2.3.2
 
-* System dependencies
+* Data is seeded. Run rails db:seed to load data into React components.
 
-* Configuration
+* Rails db:migrate
 
-* Database creation
+* Uses MapBox API with React components, getting a new access key is advised.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment is as easy as loading the database. Everything else is good to go.
