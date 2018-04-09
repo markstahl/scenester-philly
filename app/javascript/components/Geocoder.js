@@ -28,9 +28,9 @@ class Geocoder extends Component {
       new mapboxgl.GeolocateControl({
         positionOptions: {
         enableHighAccuracy: true,
-        timeout: 1500,
+        timeout: 1500
       },
-      trackUserLocation: true,
+      trackUserLocation: true
     }));
 
 

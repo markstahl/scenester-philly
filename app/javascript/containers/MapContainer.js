@@ -76,7 +76,7 @@ class MapContainer extends React.Component {
           name="Bright"
           containerStyle={{
             height: "918px",
-            width: "1920px"
+            width: "1450px"
           }}>
           {moviePopups}
           <Layer
