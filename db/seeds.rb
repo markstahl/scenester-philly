@@ -136,3 +136,23 @@ m13 = Movie.create(
   description:"A mannequin comes to life and falls in love with a young artist. There love is complicated, for obvious reasons, but shines through in this heart warming romantic comedy. As rediculous as the plot sounds, the director didn't initially want to release it fearing backlash at the absurdity of the story. It ended up faring well in box office numbers. All principle filming was done in Philadelphia, some locations include The Dorcester apartments and Rittenhouse Square",
   imdb_link:"http://www.imdb.com/title/tt0093493/?ref_=fn_al_tt_1"
 )
+
+m14 = Movie.create(
+  title:"The Blob",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BYjI2Yjg1ZDctYmMzNy00MWIyLWI5NmEtNzY5YzM5OWQ4OTQwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,693,1000_AL_.jpg",
+  year:"1958",
+  coordinates:[-75.51748752593994, 40.134001386055566],
+  location_name:"Phoenixville Colonial Theater",
+  description:"A killer alien mass of jelly like proportions wreaks havoc on Earth, all the while gaining strength as it consumes. Principal shooting was all around south-eastern Pennsylvania, and the notorious cinema scene was shot in Phoenixville. Lead actor Steve McQueen was offered either 10% of total profits or $2,500 cash for his part in the film, and ultimately took the $2,500. The film ended up making $4 million.",
+  imdb_link:"https://www.imdb.com/title/tt0051418/?ref_=ttloc_loc_tt"
+)
+
+m15 = Movie.create(
+  title:"Twelve Monkeys",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,671,1000_AL_.jpg",
+  year:"1995",
+  coordinates:[-75.17269492149353, 39.96806760707255],
+  location_name:"Eastern State Penitentiary" ,
+  description:"A man from the future (Bruce Willis) is sent back in time to discover and save humanity from a deadly plague that wiped out humanity in 1996. Director Terry Gilliam chose Philadelphia, among other cities, for it's dystopian feel while filming the futuristic scenes. Eastern State Penitentiary was a location for just a few of these scenes, used to create the unsettling atmosphere of the notorious prison.",
+  imdb_link:"https://www.imdb.com/title/tt0114746/?ref_=ttloc_loc_tt"
+)
