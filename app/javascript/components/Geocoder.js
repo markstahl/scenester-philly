@@ -33,7 +33,6 @@ class Geocoder extends Component {
       trackUserLocation: true
     }));
 
-
   }
 
   render() {

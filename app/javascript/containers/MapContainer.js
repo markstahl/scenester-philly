@@ -82,7 +82,7 @@ class MapContainer extends React.Component {
           <Layer
             type="symbol"
             id="marker"
-            layout={{ "icon-image": "cinema-15", "icon-size": 2.4}}>
+            layout={{ "icon-image": "cinema-15", "icon-size": 2.5}}>
             {markers}
           </Layer>
           <Geocoder/>
