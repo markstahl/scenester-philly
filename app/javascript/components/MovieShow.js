@@ -19,7 +19,7 @@ const MovieShow = (props) => {
         <li className="lead location-name">{props.location_name}</li>
         <p className="lead movie-description">{props.description}</p>
         <div className="card-footer">
-          <a href={props.imdb_link}>IMDb</a>
+          <a href={props.imdb_link}>IMDB</a>
         </div>
       </div>
     </div>
