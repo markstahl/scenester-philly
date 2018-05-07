@@ -176,3 +176,13 @@ m17 = Movie.create(
   description:"In the final instalment of the Godfather Trilogy, an aging Don Michael Corleone (Al Pacino) seeks to legitimize his crime family's interests and remove himself from the violent underworld but is kept back by the ambitions of the young. While he attempts to link the Corleone's finances with the Vatican, Michael must deal with the machinations of a hungrier gangster seeking to upset the existing Mafioso order and a young protoge's love affair with his daughter. This scene in particular was filmed at Trump Castle Casino, which is now Golden Nugget Casino in Atlantic City.",
   imdb_link:"https://www.imdb.com/title/tt0099674/?ref_=nv_sr_3"
 )
+
+m18 = Movie.create(
+  title:"When Harry Met Sally",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BMjE0ODEwNjM2NF5BMl5BanBnXkFtZTcwMjU2Mzg3NA@@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
+  year:"1989",
+  coordinates:[-74.09702181816101, 40.825882550970725],
+  location_name:"Giants Stadium",
+  description:"Harry and Sally have known each other for years, and are very good friends, but they fear sex would ruin the friendship. The Giants game in the film was actually filmed at a real game at Giant's Stadium (now MetLife Stadium).",
+  imdb_link:"https://www.imdb.com/title/tt0098635/?ref_=nv_sr_1"
+)
