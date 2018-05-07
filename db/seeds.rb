@@ -156,3 +156,13 @@ m15 = Movie.create(
   description:"A man from the future (Bruce Willis) is sent back in time to discover and save humanity from a deadly plague that wiped out humanity in 1996. Director Terry Gilliam chose Philadelphia, among other cities, for it's dystopian feel while filming the futuristic scenes. Eastern State Penitentiary was a location for just a few of these scenes, used to create the unsettling atmosphere of the notorious prison.",
   imdb_link:"https://www.imdb.com/title/tt0114746/?ref_=ttloc_loc_tt"
 )
+
+m16 = Movie.create(
+  title:"Goodfellas",
+  image_url:"https://ia.media-imdb.com/images/M/MV5BNThjMzczMjctZmIwOC00NTQ4LWJhZWItZDdhNTk5ZTdiMWFlXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,669,1000_AL_.jpg",
+  year:"1990",
+  coordinates:[-73.98174047470093, 40.842588336007445],
+  location_name:"1080 Inwood Terrace, Fort Lee, New Jersey",
+  description:"The story of Henry Hill (Ray Liotta) and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway (Robert De Niro) and Tommy DeVito (Joe Pesci) in the Italian-American crime syndicate. This location was used exclusively for scenes after Henry was released from prison, which included interior shots of their bedroom and bathroom.",
+  imdb_link:"https://www.imdb.com/title/tt0099685/?ref_=ttloc_loc_tt"
+)
