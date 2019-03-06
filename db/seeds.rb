@@ -213,6 +213,6 @@ m21 = Movie.create(
   year:"2012",
   coordinates:[-74.17110443115234, 40.73350275191953],
   location_name:"Prudential Center",
-  description:"Perhaps regarded as the finest 'Superhero' trilogy ever, The Dark Knight series takes the mysterious and cunning Batman and adds a dystopian, real life feel. The third installment, The Dark Knight Rises, shows Bruce Wayne's epic and relentless scuffle with the ruthless Bane and other evildoers. Partial filming was captured in Newark's Prudential Center and parts of downtown Newark",
+  description:"Perhaps regarded as the finest superhero trilogy ever, The Dark Knight series takes the mysterious and cunning Batman and adds a dystopian, real life feel. The third installment, The Dark Knight Rises, shows Bruce Wayne's epic and relentless scuffle with the ruthless Bane and other evildoers. Partial filming was captured in Newark's Prudential Center and parts of downtown Newark",
   imdb_link:"https://www.imdb.com/title/tt1345836/?ref_=nv_sr_2"
 )
