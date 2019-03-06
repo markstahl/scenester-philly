@@ -159,7 +159,7 @@ m15 = Movie.create(
 
 m16 = Movie.create(
   title:"Goodfellas",
-  image_url:"https://ia.media-imdb.com/images/M/MV5BNThjMzczMjctZmIwOC00NTQ4LWJhZWItZDdhNTk5ZTdiMWFlXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,669,1000_AL_.jpg",
+  image_url:"https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX667_CR0,0,667,999_AL_.jpg",
   year:"1990",
   coordinates:[-73.98174047470093, 40.842588336007445],
   location_name:"1080 Inwood Terrace, Fort Lee, New Jersey",
@@ -185,4 +185,14 @@ m18 = Movie.create(
   location_name:"Giants Stadium",
   description:"Harry and Sally have known each other for years, and are very good friends, but they fear sex would ruin the friendship. The Giants game in the film was actually filmed at a real game at Giant's Stadium (now MetLife Stadium).",
   imdb_link:"https://www.imdb.com/title/tt0098635/?ref_=nv_sr_1"
+)
+
+m19 = Movie.create(
+  title:"Oceans 11",
+  image_url:"https://m.media-amazon.com/images/M/MV5BYzVmYzVkMmUtOGRhMi00MTNmLThlMmUtZTljYjlkMjNkMjJkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+  year:"2001",
+  coordinates:[-74.43520545959473, 39.356068871165476],
+  location_name:"Caesar's Atlantic City",
+  description:"The classic heist film, recreated with a modern twist. Oceans 11 takes bank robberies to the next level, instead targeting the biggest money makers of them all; casinos. This action packed thriller will have you on the edge of your set for the duration and yet, still wanting more.",
+  imdb_link:"https://www.imdb.com/title/tt0240772/"
 )
