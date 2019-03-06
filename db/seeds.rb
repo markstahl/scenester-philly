@@ -159,7 +159,7 @@ m15 = Movie.create(
 
 m16 = Movie.create(
   title:"Goodfellas",
-  image_url:"https://ia.media-imdb.com/images/M/MV5BNThjMzczMjctZmIwOC00NTQ4LWJhZWItZDdhNTk5ZTdiMWFlXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_CR0,0,669,1000_AL_.jpg",
+  image_url:"https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX667_CR0,0,667,999_AL_.jpg",
   year:"1990",
   coordinates:[-73.98174047470093, 40.842588336007445],
   location_name:"1080 Inwood Terrace, Fort Lee, New Jersey",
@@ -185,4 +185,34 @@ m18 = Movie.create(
   location_name:"Giants Stadium",
   description:"Harry and Sally have known each other for years, and are very good friends, but they fear sex would ruin the friendship. The Giants game in the film was actually filmed at a real game at Giant's Stadium (now MetLife Stadium).",
   imdb_link:"https://www.imdb.com/title/tt0098635/?ref_=nv_sr_1"
+)
+
+m19 = Movie.create(
+  title:"Oceans 11",
+  image_url:"https://m.media-amazon.com/images/M/MV5BYzVmYzVkMmUtOGRhMi00MTNmLThlMmUtZTljYjlkMjNkMjJkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+  year:"2001",
+  coordinates:[-74.43520545959473, 39.356068871165476],
+  location_name:"Caesar's Atlantic City",
+  description:"The classic heist film, recreated with a modern twist. Oceans 11 takes bank robberies to the next level, instead targeting the biggest money makers of them all; casinos. This action packed thriller will have you on the edge of your set for the duration and yet, still wanting more.",
+  imdb_link:"https://www.imdb.com/title/tt0240772/"
+)
+
+m20 = Movie.create(
+  title:"Annie",
+  image_url:"https://m.media-amazon.com/images/M/MV5BYzU2YzA3NTYtNDg3OS00YTg3LThiODctZTQ3MzhkZDVjZDNlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+  year:"1982",
+  coordinates:[-74.00568723678589, 40.273550338237236],
+  location_name:"45 Elm Avenue, Monmouth University",
+  description:"Little Orphan Annie, as she was called, gets here own feature film. Living in a crummy orphanage, Annie's life changes one day when she is taken in by a wealthy businessman. Taking a vow to find her parents, Mr. Warbucks helps Annie find her parents, but not before cruel and greedy people come forward to claim the reward money under false pretences.",
+  imdb_link:"https://www.imdb.com/title/tt0083564/?ref_=fn_al_tt_1"
+)
+
+m21 = Movie.create(
+  title:"The Dark Knight Rises",
+  image_url:"https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg",
+  year:"2012",
+  coordinates:[-74.17110443115234, 40.73350275191953],
+  location_name:"Prudential Center",
+  description:"Perhaps regarded as the finest 'Superhero' trilogy ever, The Dark Knight series takes the mysterious and cunning Batman and adds a dystopian, real life feel. The third installment, The Dark Knight Rises, shows Bruce Wayne's epic and relentless scuffle with the ruthless Bane and other evildoers. Partial filming was captured in Newark's Prudential Center and parts of downtown Newark",
+  imdb_link:"https://www.imdb.com/title/tt1345836/?ref_=nv_sr_2"
 )
